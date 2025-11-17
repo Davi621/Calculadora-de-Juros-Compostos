@@ -7,6 +7,38 @@
     <title>Juros Compostos</title>
 </head>
 <body>
-    
+    <main id="container">
+        <div id="calculator">
+            <h2>
+                Calculadora de JUros Compostos
+            </h2>
+
+            <div id="input_box">
+                <div class="input_field">
+                    <label for="value">Valor inicial (capital):</label>
+                    <input type="number" id="value">
+                </div>
+                <div class="input_field">
+                    <label for="fee">Taxa de juros a.m:</label>
+                    <input type="number" id="fee">
+                </div>
+                <div class="input_field">
+                    <label for="time">Tempo de rendimento a.m:</label>
+                    <input type="number" id="fee">
+                </div>
+            </div>
+
+            <div id="result">
+                <h4>Resultado:</h4>
+                <span id="total">
+                    R$ 0,00
+                </span>
+            </div>
+
+            <button id="calculate">
+                Calcular
+            </button>
+        </div>
+    </main>
 </body>
 </html>
