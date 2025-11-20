@@ -93,3 +93,14 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    #calculator {
+        padding: 20px;
+        width: 90%;
+    }
+    
+    #calculator h2 {
+        font-size: 24px;
+    }
+}
